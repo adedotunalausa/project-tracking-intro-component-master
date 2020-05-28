@@ -1,0 +1,19 @@
+
+%btn {
+  border-radius: 5px;
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+  font-size: 0.65rem;
+  background-color: hsl(0, 100%, 68%);
+  box-shadow: 0 1px 5px 0.2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(.95);
+    opacity: 0.8;
+  }
+}
+
+.btn-schedule {
+  @extend %btn;
+}
