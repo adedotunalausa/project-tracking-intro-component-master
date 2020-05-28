@@ -21,14 +21,16 @@
 
   <div class="nav-bar">
     <img class="logo" src="images/logo.svg" alt="logo-image">
-    <ul>
+    <ul id="menu-list">
       <li><a href="#">PRODUCT</a></li>
       <li><a href="#">FEATURES</a></li>
       <li><a href="#">PRICING</a></li>
-      <li><i class="fas fa-circle"></i></li>
+      <li class="line"><hr></li>
+      <li class="circle"><i class="fas fa-circle"></i></li>
       <li><a class="login" href="#">LOGIN</a></li>
     </ul>
-    <img class="hamburger-menu" src="images/icon-hamburger.svg" alt="menu-image">
+    <img id="menu" class="hamburger-menu" src="images/icon-hamburger.svg" onclick="onClickMenu()" alt="menu-image">
+    <img  id="menu-close" class="close-menu" src="images/icon-close.svg" onclick="onClickMenu()" alt="close-menu">
   </div>
 
   <div class="container">
@@ -54,6 +56,8 @@
       <img src="images/illustration-devices.svg" alt="devices-image">
     </div>
   </div>
+
+  <script src="index.js" charset="utf-8"></script>
 
   <footer>
     <p class="attribution">
